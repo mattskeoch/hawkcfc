@@ -54,7 +54,7 @@ html {
 */
 
 body {
-  margin: 0;
+  margin: 1rem;
   /* 1 */
   line-height: inherit;
   /* 2 */
