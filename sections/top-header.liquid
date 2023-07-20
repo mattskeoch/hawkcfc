@@ -1,0 +1,73 @@
+<div class='tw-bg-white'>
+  <div class='tw-mx-auto tw-flex tw-h-24 page-width tw-items-center tw-justify-between  '>
+    <!-- left content -->
+    {% comment %}
+      <div class='tw-hidden lg:tw-block lg:tw-flex-1'>
+        <div class='tw-flex'>
+          <div class='group tw-relative tw--ml-2 tw-rounded-md tw-border-transparent tw-bg-gray-900 focus-within:tw-ring-2 focus-within:tw-ring-white'>
+            <p>left content goes here</p>
+          </div>
+        </div>
+      </div>
+    {% endcomment %}
+
+    {% comment %}
+      <p class='tw-flex-1 tw-text-center  tw-font-medium tw-text-slate-50 lg:tw-flex-none'>
+        Get free delivery on orders over $100
+      </p>
+    {% endcomment %}
+
+    <div class='tw-hidden lg:tw-flex lg:tw-flex-1 lg:tw-items-center lg:tw-justify-end lg:tw-space-x-6'>
+      <div class='tw-flex tw-justify-center tw-items-center'>
+        <p class='tw-mr-10 tw-text-xs' style='font-size: 1rem !important'>We Cover Perth & Country WA</p>
+        <a href='#' class='tw-text-gray-400 hover:tw-text-gray-500'>
+          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' class='tw-h-6 tw-w-6'>
+            <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+      <div class='tw-flex tw-justify-center tw-items-center'>
+        <p class='tw-mr-10'>1800 429 522</p>
+        <a href='#' class='tw-text-gray-400 hover:tw-text-gray-500'>
+          <svg class='tw-h-6 tw-w-6' fill='currentColor' viewBox='0 0 24 24' stroke-width='2.5' aria-hidden='true'>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+        </a>
+      </div>
+      <div class='tw-flex tw-justify-center tw-items-center'>
+        <p class='tw-mr-10 '>Free Consultation</p>
+        <a href='#' class='tw-text-gray-400 hover:tw-text-gray-500'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke-width='2.5'
+            stroke='currentColor'
+            class='tw-h-6 tw-w-6'
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Top Header",
+  "settings": [
+    {
+      "id": "text-box",
+      "type": "text",
+      "label": "Name",
+      "default": "Jane Doe"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Top Bar"
+    }
+  ]
+}
+{% endschema %}
