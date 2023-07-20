@@ -2,21 +2,10 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0"
-      ],
+    "cc88c6e5-eaae-4760-aca9-1ded7120bb80": {
+      "type": "top-header",
       "settings": {
+        "text-box": "Jane Doe"
       }
     },
     "header": {
@@ -28,6 +17,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
@@ -38,7 +28,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "cc88c6e5-eaae-4760-aca9-1ded7120bb80",
     "header"
   ]
 }
