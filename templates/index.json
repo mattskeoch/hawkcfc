@@ -45,7 +45,8 @@
         "template--19852634521874__90b656db-f20d-47d1-812d-5f88187a9e40-slide-2"
       ],
       "custom_css": [
-        "h2 {font-size: 5.2rem; font-weight: bold; text-shadow: 1px 1px 1px #000, 3px 3px 5px #000;}"
+        "h2 {font-size: 5.2rem; font-weight: bold; text-shadow: 2px 2px 5px #0f172a;}",
+        "p {font-size: 1.8rem; color: #fff; text-shadow: 1px 1px 3px #0f172a;}"
       ],
       "settings": {
         "layout": "full_bleed",
