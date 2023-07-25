@@ -59,6 +59,36 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose Us",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -132,7 +162,7 @@
         "0461d6e8-b7fc-43ed-9f8d-b4fadd14c171"
       ],
       "settings": {
-        "title": "Why Choose Us",
+        "title": "",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "square",
@@ -148,17 +178,17 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
+    "198c7809-0e63-45e1-8e49-62c7c1bdd024": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "37daa788-41b7-4558-a261-d20035e2cb27": {
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "02e5cfb5-a400-451b-a085-70c99ec420ef": {
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
@@ -166,8 +196,8 @@
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "37daa788-41b7-4558-a261-d20035e2cb27",
+        "02e5cfb5-a400-451b-a085-70c99ec420ef"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -262,8 +292,9 @@
   },
   "order": [
     "90b656db-f20d-47d1-812d-5f88187a9e40",
-    "multicolumn",
     "rich_text",
+    "multicolumn",
+    "198c7809-0e63-45e1-8e49-62c7c1bdd024",
     "featured_collection",
     "collage",
     "video"
