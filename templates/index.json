@@ -159,10 +159,10 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "",
+        "heading": "Perth’s Most Trusted Epoxy Flooring",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=guezcwptUTE",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
