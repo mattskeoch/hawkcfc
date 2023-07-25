@@ -1,51 +1,58 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "90b656db-f20d-47d1-812d-5f88187a9e40": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--19852634521874__90b656db-f20d-47d1-812d-5f88187a9e40-slide-1": {
+          "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Slider-1.webp",
             "heading": "A Unique Epoxy Concrete Floor That Lasts",
-            "heading_size": "h0"
+            "heading_size": "h1",
+            "subheading": "We only source the highest quality materials, technicians, and equipment. This is just one more reason we set the highest standard in resin flooring.",
+            "button_label": "View Services",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-672c9552-5a71-4fff-b4de-0bf828217052",
+            "text_alignment_mobile": "center"
           }
         },
-        "text": {
-          "type": "text",
+        "template--19852634521874__90b656db-f20d-47d1-812d-5f88187a9e40-slide-2": {
+          "type": "slide",
           "settings": {
-            "text": "We only source the highest quality materials, technicians, and equipment. This is just one more reason we set the highest standard in resin flooring.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "View Services",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/Concrete-Enhancer-BG-Image.webp",
+            "heading": "Commercial Epoxy Flooring Solutions that Last",
+            "heading_size": "h1",
+            "subheading": "We take pride in our work and provide the highest possible quality for all of our clients. Our passion is providing flooring for life.",
+            "button_label": "View Services",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--19852634521874__90b656db-f20d-47d1-812d-5f88187a9e40-slide-1",
+        "template--19852634521874__90b656db-f20d-47d1-812d-5f88187a9e40-slide-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Slider-1.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text": {
@@ -214,7 +221,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "90b656db-f20d-47d1-812d-5f88187a9e40",
     "rich_text",
     "featured_collection",
     "collage",
