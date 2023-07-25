@@ -91,12 +91,45 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "262d8def-a95c-4bb5-994d-ec1f207c4c52": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Industries-Icon.png",
+            "title": "Many Industries",
+            "text": "<p>We work with commercial sectors, the food industry, pharmaceutical, healthcare, mechanical and equipment workshops, etc.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bfc94afc-1051-4c8e-a4e0-06d81a87b56d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nonslip-Icon.png",
+            "title": "Non Slip",
+            "text": "<p>We tailor-make your floor to achieve the desired cleanability and slip resistance rating.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0461d6e8-b7fc-43ed-9f8d-b4fadd14c171": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nonslip-Icon.png",
+            "title": "Free Consultation",
+            "text": "<p>Choosing a floor can be challenging. We’re here to guide you along every<br\/>step of the way with neutral advice on what floor is the right option <br\/>for your business.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "262d8def-a95c-4bb5-994d-ec1f207c4c52",
+        "bfc94afc-1051-4c8e-a4e0-06d81a87b56d",
+        "0461d6e8-b7fc-43ed-9f8d-b4fadd14c171"
       ],
       "settings": {
         "title": "Why Choose Us",
