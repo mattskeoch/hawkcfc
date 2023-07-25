@@ -59,6 +59,50 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "851fd8e7-826b-4dfb-800a-93ab30ec0c97": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Perth’s Most Trusted Epoxy Flooring",
+            "heading_size": "h1"
+          }
+        },
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our passion is not just great <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/epoxy-flooring\/\">epoxy flooring<\/a><br\/> but a great user experience. No one wants to spend excess time thinking<br\/> about their floor, but everyone wants it to perform. We provide <br\/>superior solutions for the <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/sectors\/residential-flooring-perth\/\">residential<\/a>, <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/sectors\/industrial-flooring\/\">industrial<\/a>, <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/sectors\/commercial-flooring\/\">commercial<\/a>, and <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/sectors\/industrial-flooring\/food-grade-flooring-perth\/\">food production<\/a> industries.<\/p><p>Our forward-thinking team, quality equipment, and world-class <br\/>materials will guarantee long-lasting epoxy flooring. We pride ourselves<br\/> on installing <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/estherell-resin-flooring-perth\/\">resin flooring<\/a> fast and efficiently. Our goal is to ease the stress of your <a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/services\/flooring\/\">flooring project<\/a> by reducing downtime and allowing you to be back to work faster.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-heading-1",
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-text-1",
+        "template--19852634521874__851fd8e7-826b-4dfb-800a-93ab30ec0c97-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -208,34 +252,6 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -292,10 +308,10 @@
   },
   "order": [
     "90b656db-f20d-47d1-812d-5f88187a9e40",
+    "851fd8e7-826b-4dfb-800a-93ab30ec0c97",
     "rich_text",
     "multicolumn",
     "198c7809-0e63-45e1-8e49-62c7c1bdd024",
-    "featured_collection",
     "collage",
     "video"
   ]
