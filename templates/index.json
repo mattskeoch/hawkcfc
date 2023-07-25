@@ -32,10 +32,10 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-672c9552-5a71-4fff-b4de-0bf828217052",
             "text_alignment_mobile": "center"
           }
         }
