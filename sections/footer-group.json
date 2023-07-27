@@ -5,6 +5,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "bafb0a8b-6d15-45c9-846b-efa2a6bdf9e3": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -12,30 +18,32 @@
             "menu": "footer"
           }
         },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
+        "9ecbc948-52e5-44dd-a8b4-be37390364ac": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Company Info",
+            "subtext": "<p><a href=\"https:\/\/g.page\/HawkCFC?share\" target=\"_blank\">Servicing all of Perth and WA<\/a><\/p><p><a href=\"tel:1800429522)\">1800 HAWK CC (1800 429 522)<\/a><\/p><p><a href=\"https:\/\/www.hawkconcretefloorcoatings.com.au\/contact-us\/\">Email Us<\/a><\/p><p>Mon to Fri : 6:00 AM - 6:00 PM<\/p><p>Sat to Sun : Closed<\/p><p>Closed on Public Holidays<\/p><p><a href=\"https:\/\/abr.business.gov.au\/ABN\/View?abn=85146676394\" target=\"_blank\">ABN 85 146 676 394<\/a><\/p>"
+          }
+        },
+        "0eae62f0-104f-4751-8ba0-29074ccf9b8f": {
+          "type": "text",
+          "settings": {
+            "heading": "Location",
+            "subtext": "<p>10 Cowcher Place, Belmont WA 6104<\/p><p><\/p>"
           }
         }
       },
       "block_order": [
+        "bafb0a8b-6d15-45c9-846b-efa2a6bdf9e3",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "9ecbc948-52e5-44dd-a8b4-be37390364ac",
+        "0eae62f0-104f-4751-8ba0-29074ccf9b8f"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
